@@ -1,3 +1,5 @@
+global.Buffer = require('buffer').Buffer;
+
 import * as address from './address';
 import * as crypto from './crypto';
 import * as networks from './networks';

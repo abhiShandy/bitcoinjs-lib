@@ -11,6 +11,7 @@ exports.initEccLib =
   exports.crypto =
   exports.address =
     void 0;
+global.Buffer = require('buffer').Buffer;
 const address = require('./address');
 exports.address = address;
 const crypto = require('./crypto');
